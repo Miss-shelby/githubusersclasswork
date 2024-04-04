@@ -12,6 +12,8 @@ import { InputFeild,CharacterCount } from './projects/project.jsx'
 import {SearchItem} from  './projects/filter.jsx'
 // import GithubUsers from './postman/postman.jsx'
 import GithubUsers from './postman/api.jsx'
+import AppScriptData from './AppScript/index.jsx'
+import Fetch from './Fetch/Fetch.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
@@ -20,12 +22,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <LearnProps /> */}
     {/* <Count />
      */}
+     <AppScriptData/>
+     < Fetch/>
      {/* <MyPromise /> */}
      {/* <AxiosPageApi /> */}
      {/* <GithubUsers/> */}
-     <SearchItem/>
-     <InputFeild />
-     <CharacterCount />
+     {/* <SearchItem/> */}
+     {/* <InputFeild /> */}
+     {/* <CharacterCount /> */}
      {/* <ColorPicker /> */}
   </React.StrictMode>,
 )

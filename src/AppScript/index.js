@@ -1,0 +1,2 @@
+export const AppScriptUrl = 'https://script.google.com/macros/s/AKfycbxH7_mJOYrn5IpyATacibMcOo9o859Pp5gIQbVZxJzw8NaE91F70BG6SXL_8h-Fd0iD/exec?sheetId=1-dTs0BuoUGp5qvAHH6i90TCqJDyFcON0P5jF-PrKnJI&sheetName=Sheet1'
+export const PhotosUrl = 'https://jsonplaceholder.typicode.com/photos'

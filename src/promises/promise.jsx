@@ -50,6 +50,7 @@ export const AxiosPageApi=()=>{
     console.log(response.data);
     setUsers(response.data)
     console.log(users)
+    console.log(typeof users)
   })
   .catch(function (error) {
     // handle error
